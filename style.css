@@ -84,3 +84,11 @@
  .process-visual{height:150px}
  .promo-art img{min-height:300px}
 }
+
+/* Clear, tappable showreel profile actions */
+.reel-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:22px}
+.reel-actions .primary{margin:0}
+.reel-actions .textlink{display:inline-flex;align-items:center;min-height:44px}
+.enquiry-form .submit-btn:disabled{opacity:.65;cursor:wait}
+.form-note{max-width:560px}
+@media(max-width:520px){.reel-actions{align-items:stretch;flex-direction:column}.reel-actions .primary,.reel-actions .textlink{width:100%;justify-content:center}}
