@@ -1,7 +1,18 @@
-# Abdullah Ahmad — Motion & Story (Enquiry Edition)
+# ABDULLAH AHMAD — Motion & Story
 
-Static GitHub Pages portfolio. Upload the contents of this folder to the repository root, replacing existing files. Keep `abdullah-car.jpg` and `abdullah-bike.jpg` in the root beside `index.html`, `style.css`, and `script.js`.
+Premium portfolio site for Abdullah Ahmad.
 
-Includes service categories, ₹1,000–₹10,000 indicative project range, a project enquiry form that opens a prefilled email draft, and direct email contact. The form does not submit automatically; the visitor reviews the draft and presses Send. No unverified years-of-experience claim is made.
+## Files
+- `index.html` — site structure and content
+- `style.css` — responsive cinematic styling
+- `script.js` — mobile navigation and enquiry form
+- `reel-sample.mp4` — optimized H.264/AAC vertical video
+- `reel-poster.jpg` — video poster frame
+- `abdullah-portrait.jpg` — supplied portrait
+- `process-*.svg`, `social-*.svg`, `brand-motion.svg` — custom visual artwork
 
-GitHub Pages hosts static files only; it does not run a Node.js server.
+## Contact form
+The enquiry form uses FormSubmit (`https://formsubmit.co`) to deliver messages to `abdullahahmad7085@gmail.com`. On first use, FormSubmit may send a verification email to that inbox; approve it to activate delivery. The direct email link remains available as a fallback.
+
+## Publish
+Upload the contents of this folder to the root of the GitHub Pages repository and commit the changes. Keep the files together so local asset paths continue to work.

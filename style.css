@@ -51,16 +51,36 @@
 @media(max-width:850px){.service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.contact-layout{grid-template-columns:1fr}.pricing-panel{grid-template-columns:1fr}.price-main{border-right:0;border-bottom:1px solid var(--line)}}
 @media(max-width:560px){.service-grid{grid-template-columns:1fr}.service-card{min-height:220px}.enquiry-form{grid-template-columns:1fr}.form-row.full,.submit-btn,.form-note{grid-column:1}.price-value{font-size:clamp(31px,8vw,45px)}.contact-layout{margin-bottom:55px}.contact-direct{padding:24px}.email-link{font-size:12px}}
 
-/* Featured showreel — supplied vertical sample */
-.showreel-section{padding-top:95px}
-.reel-feature{display:grid;grid-template-columns:minmax(250px,.78fr) 1.22fr;gap:clamp(25px,5vw,70px);align-items:center;padding:clamp(18px,3vw,34px);border:1px solid #b8ffcf35;background:linear-gradient(125deg,rgba(22,51,42,.88),rgba(8,16,19,.96));box-shadow:0 24px 75px #0004}
-.reel-player{width:min(100%,360px);justify-self:center;overflow:hidden;border:1px solid #b8ffcf55;background:#030708;box-shadow:0 18px 55px #0008}
+/* Premium visual upgrades: photo-led process, vertical showcase and reliable contact */
+.showreel-section{padding-top:100px}
+.reel-feature{display:grid;grid-template-columns:minmax(250px,.8fr) 1.2fr;gap:clamp(26px,5vw,76px);align-items:center;padding:clamp(18px,3vw,36px);border:1px solid #b8ffcf40;background:linear-gradient(125deg,rgba(22,51,42,.88),rgba(8,16,19,.97));box-shadow:0 24px 75px #0005}
+.reel-player{width:min(100%,340px);justify-self:center;overflow:hidden;border:1px solid #b8ffcf66;background:#030708;box-shadow:0 18px 55px #0009}
 .reel-player video{display:block;width:100%;height:auto;max-height:680px;aspect-ratio:9/16;object-fit:contain;background:#030708}
-.reel-copy{max-width:520px;padding:20px 0}
+.reel-copy{max-width:540px;padding:20px 0}
 .reel-kicker{font:9px 'DM Mono';letter-spacing:.16em;color:var(--mint)}
-.reel-copy h3{font-size:clamp(32px,4.5vw,58px);line-height:1.05;letter-spacing:-.065em;margin:18px 0}
+.reel-copy h3{font-size:clamp(34px,4.5vw,60px);line-height:1.04;letter-spacing:-.065em;margin:18px 0}
 .reel-copy h3 em{font-family:Georgia,serif;font-weight:400;color:var(--mint)}
 .reel-copy p{font-size:13px;line-height:1.9;color:#a2b7ac;max-width:440px}
 .reel-meta{display:flex;gap:9px;flex-wrap:wrap;margin:24px 0}
 .reel-meta span{font:8px 'DM Mono';letter-spacing:.08em;color:var(--mint);border:1px solid #b8ffcf35;padding:8px 9px}
-@media(max-width:700px){.reel-feature{grid-template-columns:1fr}.reel-player{width:min(100%,310px)}.reel-copy{padding:8px 0 5px}.showreel-section{padding-top:75px}}
+.process-card{padding-top:23px}
+.process-visual{display:block;width:100%;height:138px;object-fit:cover;margin:18px 0 17px;border:1px solid #b8ffcf25;filter:saturate(.82);transition:filter .35s,transform .5s}
+.process-card:hover .process-visual{filter:saturate(1.08);transform:scale(1.015)}
+.process-symbol{display:none}
+.process-card h3{margin-top:5px}
+.promo-art{overflow:hidden;padding:0!important;background:#0a1415}
+.promo-art img{display:block;width:100%;height:100%;min-height:335px;object-fit:cover}
+.work-bike img{object-position:center 50%;filter:saturate(.9)}
+.portrait-frame img{object-position:center 24%;filter:saturate(.82) contrast(1.03)}
+.about-copy img{object-position:center 22%;filter:none;border-radius:2px}
+.email-fallback{display:inline-block;margin-top:12px;color:var(--mint);font-size:11px;text-decoration:underline;text-underline-offset:4px}
+.form-note{line-height:1.7}
+.submit-btn:disabled{opacity:.65;cursor:wait}
+@media(max-width:700px){
+ .showreel-section{padding-top:76px}
+ .reel-feature{grid-template-columns:1fr;gap:20px}
+ .reel-player{width:min(100%,310px)}
+ .reel-copy{padding:8px 0 4px}
+ .process-visual{height:150px}
+ .promo-art img{min-height:300px}
+}
